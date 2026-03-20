@@ -55,7 +55,7 @@ def main() -> None:
 
     # appdata.embed_base_data(args.force_embed)
 
-    bind = "unix:/run/gunicorn/magmek_backend.sock"
+    bind = "unix:/run/gunicorn/conlang-server.sock"
     if args.local:
         consts.GlobalConfig.local = True
         bind = "127.0.0.1:5000"
