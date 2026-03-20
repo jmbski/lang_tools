@@ -1,0 +1,31 @@
+/* :root {
+    // root z-index
+    --base-z-index: 1000;
+
+    // #region nav elements
+    --bz-top-nav: calc(var(--base-z-index) + 1000);
+    --bz-top-nav-content: calc(var(--bz-top-nav) + 1);
+    
+    --bz-side-nav: calc(var(--base-z-index) + 2000);
+    // #endregion
+
+    // #region dialogs and overlays
+    --bz-dialog: calc(var(--base-z-index) + 10000);
+    // #endregion
+
+    // #region buttons
+    --bz-button-base: inherit;
+    --bz-button: calc(var(var(--bz-button-base) + 1));
+    --bz-button-hover: calc(var(var(--bz-button-base) + 2));
+    // #endregion
+
+} */
+
+$base-z-index: 1000;
+$bz-top-nav: calc($base-z-index + 2000);
+$bz-top-nav-content: calc($bz-top-nav + 1);
+$bz-side-nav: calc($base-z-index + 2000);
+$bz-dialog: calc($base-z-index + 10000);
+$bz-button-base: inherit;
+$bz-button: calc($bz-button-base + 1);
+$bz-button-hover: calc($bz-button-base + 2);

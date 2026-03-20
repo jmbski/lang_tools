@@ -1,0 +1,20 @@
+//@import 'primeflex/primeflex.css';
+@import 'extensions';
+
+.ws-clear-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.875rem;
+    right: 1rem;
+    z-index: 3000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 100%;
+    padding: .25rem;
+    box-shadow: $glow-1;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.ws-clear-icon:hover {
+    box-shadow: $glow-2, $glow-1-inner;
+}

@@ -1,0 +1,54 @@
+@import 'primeflex/primeflex.scss';
+
+$radius: 5px;
+
+.ws-wordlist-search {
+    // @extend .w-full;
+    // @extend .sticky;
+    // @extend .top-0;
+    @extend .shadow-4;
+    @extend .col-8;
+    @extend .relative;
+    //@extend .w-10;
+    
+    z-index: 3000;
+}
+
+.lt-word-list-header {
+    @extend .grid;
+    @extend .grid-nogutter;
+    @extend .sticky;
+    @extend .top-0;
+    @extend .p-1;
+    @extend .w-full;
+    @extend .right-0;
+    @extend .left-0;
+
+    background-color: var(--surface-e);
+    z-index: 3000;
+}
+
+.sl-icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    cursor: pointer;
+    border: 2px solid #263238;
+    border-left: none;
+    transition: all 0.3s ease;
+    background-color: var(--surface-e);
+    @extend .shadow-3;
+
+    &-end {
+        border-top-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+
+        @extend .sl-icon-btn;
+    }
+}
+
+.sl-icon-btn:hover {
+    background-color: var(--surface-d);
+    text-shadow: 0px 0px 4px WHITE;
+}

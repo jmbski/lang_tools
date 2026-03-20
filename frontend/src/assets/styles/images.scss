@@ -1,0 +1,161 @@
+.wood-seamless {
+  background-image: url('../images/wood-seamless.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wood-seamless-2 {
+    background-image: url('../images/wood-seamless2.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% 500%;
+}
+
+.stone-wall {
+    background-image: url('../images/stone-wall.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.stone-wall-light {
+    background-image: url('../images/stone-wall-light.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parchment-1 {
+    background-image: url('../images/parchment1.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% 500%;
+}
+
+.parchment-2 {
+    background-image: url('../images/parchment2.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.parchment-panel-1 {
+    background-image: url('../images/parchment-alpha.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.illuminated-border {
+    background-image: url('../images/illuminated.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 7rem;
+    height: 7rem;
+    background-size: 7rem;
+    float: left;
+    margin-right: 1rem;
+    margin-top: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illuminated-border-2 {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-2.png');
+    
+}
+
+.illuminated-border-red {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+}
+
+.illuminated-border-blue {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+    filter: hue-rotate(220deg);
+    
+    .illuminated,
+    .illuminated-red,
+    .illuminated-green,
+    .illuminated-yellow,
+    .illuminated-purple,
+    .illuminated-cyan,
+    .illuminated-blue {
+        filter: hue-rotate(-220deg);
+    }
+}
+
+.illuminated-border-green {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+    filter: hue-rotate(120deg);
+    
+    .illuminated,
+    .illuminated-red,
+    .illuminated-green,
+    .illuminated-yellow,
+    .illuminated-purple,
+    .illuminated-cyan,
+    .illuminated-blue {
+        filter: hue-rotate(-120deg);
+    }
+
+}
+
+.illuminated-border-yellow {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+    filter: hue-rotate(60deg);
+    
+    .illuminated,
+    .illuminated-red,
+    .illuminated-green,
+    .illuminated-yellow,
+    .illuminated-purple,
+    .illuminated-cyan,
+    .illuminated-blue {
+        filter: hue-rotate(-60deg);
+    }
+}
+
+.illuminated-border-purple {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+    filter: hue-rotate(300deg);
+    
+    .illuminated,
+    .illuminated-red,
+    .illuminated-green,
+    .illuminated-yellow,
+    .illuminated-purple,
+    .illuminated-cyan,
+    .illuminated-blue {
+        filter: hue-rotate(-300deg);
+    }
+}
+
+.illuminated-border-cyan {
+    @extend .illuminated-border;
+    background-image: url('../images/illuminated-red.png');
+    filter: hue-rotate(180deg);
+    
+    .illuminated,
+    .illuminated-red,
+    .illuminated-green,
+    .illuminated-yellow,
+    .illuminated-purple,
+    .illuminated-cyan,
+    .illuminated-blue {
+        filter: hue-rotate(-180deg);
+    }
+}

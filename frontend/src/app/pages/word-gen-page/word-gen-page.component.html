@@ -1,0 +1,13 @@
+<ws-page-layout [config]="pageLayoutConfig">
+    <p-splitter
+        [style]="{ height: '65vh', width: '100%' }" 
+        styleClass="mb-5"
+        [minSizes]="[25,25]"
+        [panelSizes]="[40,60]">
+
+        <ng-template pTemplate>
+            <ws-element-renderer></ws-element-renderer>
+        </ng-template>
+
+    </p-splitter>
+</ws-page-layout>

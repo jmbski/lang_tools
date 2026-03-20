@@ -1,0 +1,70 @@
+@if(lexicon) {
+    <div class="lt-word-list-header">
+        <div class="col-12">
+            <p-inputGroup class="w-full">
+                <p-inputGroupAddon>
+                    <label>Search:</label>
+                </p-inputGroupAddon>
+
+                <input pInputText
+                    type="text"
+                    class="ws-wordlist-searchs"
+                    placeholder="English word..."
+                    [formControl]="filterControl"
+                >
+                <!-- <p-button icon="pi pi-times" styleClass="p-button-text p-button-sm" (click)="clear()"></p-button>
+                <p-button icon="pi pi-filter" styleClass="p-button-text" (click)="menu.toggle($event)"></p-button> -->
+                <div class="sl-icon-btn" (click)="clear()" pTooltip="Clear search">
+                    <i class="pi pi-times"></i>
+                </div>
+                <div class="sl-icon-btn-end" (click)="menu.toggle($event)" pTooltip="Filter options">
+                    <i class="pi pi-filter"></i>
+                </div>
+                <p-overlayPanel #menu>
+                    <p-menu [model]="filterOptions" appendTo="body"></p-menu>
+                </p-overlayPanel>
+
+            </p-inputGroup>
+        </div>
+    </div>
+        
+    @for(group of lexGroups$ | async; track group.engWord) {
+
+        <p-panel [header]="group.label"
+            [toggleable]="true"
+            [toggler]="'header'"
+            collapseIcon="pi pi-chevron-down"
+            expandIcon="pi pi-chevron-up"
+            [collapsed]="true"
+            styleClass="sl-wordlist-item"
+            >
+            <ng-template pTemplate="header">
+                <p-badge 
+                    [value]="'' + group.totalCount" 
+                    severity="info"
+                    pTooltip="Total number of definitions"
+                    styleClass="ml-2">
+                </p-badge>
+                <p-badge 
+                    [value]="'' + group.assignedCount" 
+                    severity="success"
+                    pTooltip="Number of definitions with assigned conlang words"
+                    styleClass="ml-2">
+                </p-badge>
+            </ng-template>
+            <ng-template pTemplate="content">
+                <div class="grid grid-notgutter">
+                    @for(def of group.lexEntries; track def.dbId) {
+                        <div class="col-12">
+                            <p-button 
+                                label="{{def.definition}}" 
+                                (click)="currentLexChange.emit(def)"
+                                [severity]="def.wordId != null ? 'success' : 'info'">
+                            </p-button>
+                        </div>
+                    }
+                </div>
+            </ng-template>
+        </p-panel>
+    }
+}

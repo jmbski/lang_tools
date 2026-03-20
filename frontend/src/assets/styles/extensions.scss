@@ -1,0 +1,86 @@
+@import 'primeflex/primeflex.scss';
+@import 'variables';
+
+
+
+.flex-centered {
+    @include styleclass('flex flex-row justify-content-center align-items-center w-full relative');
+}
+
+.flex-centered-top {
+    @include styleclass('flex flex-row justify-content-center align-items-start w-full relative');
+
+}
+
+.flex-vertical {
+    @include styleclass('flex flex-column w-full relative');
+}
+
+.flex-vertical-no-width {
+    @include styleclass('flex flex-column relative');
+}
+
+.flex-spread {
+    @include styleclass('flex flex-row justify-content-between align-items-center w-full relative');
+}
+
+.flex-around {
+    @include styleclass('flex flex-row justify-content-around align-items-center w-full relative');
+}
+
+.flex-even-start {
+    @include styleclass('flex flex-row w-full');
+}
+
+.grid-row-std {
+    @include styleclass('col-12 grid grid-nogutter lg:col-6 xl:col-6 p-2');
+}
+
+.glow-1 {
+    box-shadow: $glow-1 !important;
+}
+
+.glow-1-inner {
+    box-shadow: $glow-1-inner !important;
+}
+
+.glow-1-both {
+    box-shadow: $glow-1-inner, $glow-1 !important;
+}
+
+.glow-2 {
+    box-shadow: $glow-2 !important;
+}
+
+.glow-2-inner {
+    box-shadow: $glow-2-inner !important;
+}
+
+.glow-2-both {
+    box-shadow: $glow-2-inner, $glow-2 !important;
+}
+
+.glow-3 {
+    box-shadow: $glow-3 !important;
+}
+
+.glow-3-inner {
+    box-shadow: $glow-3-inner !important;
+}
+
+.glow-3-both {
+    box-shadow: $glow-3-inner, $glow-3 !important;
+}
+
+.glow-4 {
+    box-shadow: $glow-4 !important;
+}
+
+.glow-4-inner {
+    box-shadow: $glow-4-inner !important;
+}
+
+.glow-4-both {
+    box-shadow: $glow-4-inner, $glow-4 !important;
+}
+

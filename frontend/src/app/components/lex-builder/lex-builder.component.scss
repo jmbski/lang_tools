@@ -1,0 +1,20 @@
+@import 'primeflex/primeflex.scss';
+
+:host ::ng-deep {
+    ws-element-renderer {
+        width: 100%;
+    }
+
+    .lex-entry-link {
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 0 .5rem;
+        transition: all 0.3s ease;
+        background-color: var(--surface-100);
+        @extend .shadow-4;
+    }
+
+    .lex-entry-link:hover {
+        background-color: var(--surface-200);
+    }
+}

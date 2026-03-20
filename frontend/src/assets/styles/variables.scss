@@ -1,0 +1,212 @@
+$surface-700: #e7ded1;
+$common-transition: all 0.3s ease;
+$base-logo-height: 6rem;
+
+// Create a lighter version of the color
+
+$surface-100: #161d21;
+$surface-100-lighter: lighten($surface-100, 20%);
+
+// Create a more transparent version of the lighter color
+$surface-100-lighter-transparent: rgba($surface-100-lighter, 0.7);
+$glow-1-color: rgba($surface-100-lighter, 0.2);
+$glow-2-color: rgba($surface-100-lighter, 0.25);
+$glow-3-color: rgba($surface-100-lighter, 0.4);
+$glow-4-color: rgba($surface-100-lighter, 0.5);
+
+$glow-1: 0 0 2px 2px $glow-1-color;
+$glow-1-inner: $glow-1 inset;
+$glow-1-both: $glow-1, $glow-1-inner;
+
+$glow-2: 0 0 3px 3px $glow-2-color;
+$glow-2-inner: $glow-2 inset;
+$glow-2-both: $glow-2, $glow-2-inner;
+
+$glow-3: 0 0 5px 5px $glow-3-color;
+$glow-3-inner: $glow-3 inset;
+$glow-3-both: $glow-3, $glow-3-inner;
+
+$glow-4: 0 0 10px 5px $glow-4-color;
+$glow-4-inner: $glow-4 inset;
+$glow-4-both: $glow-4, $glow-4-inner;
+
+$text-glow-1: 0 0 3px rgba(255, 255, 255, 0.8);
+
+$mw-font-family: Poppins, sans-serif;
+$mw-surface-a: #88581a;
+$mw-surface-b: #5f3e12;
+$mw-surface-c: rgba(148, 105, 49, 0.08);
+$mw-surface-d: #523510;
+$mw-surface-e: #88581a;
+$mw-surface-f: #88581a;
+
+$mw-text-color: rgba(14, 9, 3, 0.87);
+$mw-text-color-secondary: rgba(14, 9, 3, 0.6);
+
+$mw-primary-color: #946931;
+$mw-primary-color-text: #e7ded1;
+
+$mw-surface-0: #88581a;
+$mw-surface-50: #946931;
+$mw-surface-100: #a07948;
+$mw-surface-200: #ac8a5f;
+$mw-surface-300: #b89b76;
+$mw-surface-400: #c4ac8d;
+$mw-surface-500: #cfbca3;
+$mw-surface-600: #dbcdba;
+$mw-surface-700: #e7ded1;
+$mw-surface-800: #f3eee8;
+$mw-surface-900: #ffffff;
+
+$mw-gray-50: #e7e7e8;
+$mw-gray-100: #cfd0d0;
+$mw-gray-200: #b7b8b9;
+$mw-gray-300: #9fa1a1;
+$mw-gray-400: #87898a;
+$mw-gray-500: #6e7173;
+$mw-gray-600: #565a5b;
+$mw-gray-700: #3e4244;
+$mw-gray-800: #262b2c;
+$mw-gray-900: #0e1315;
+
+$mw-content-padding: 1rem;
+$mw-inline-spacing: 0.5rem;
+$mw-border-radius: 6px;
+
+$mw-surface-ground: #291a08;
+$mw-surface-section: #291a08;
+$mw-surface-card: #442c0d;
+$mw-surface-overlay: #442c0d;
+$mw-surface-border: #5f3e12;
+$mw-surface-hover: rgba(var(--primary-color), 0.08);
+
+$mw-maskbg: rgba(0, 0, 0, 0.4);
+
+$mw-highlight-bg: rgba(196, 172, 141, 0.16);
+$mw-highlight-text-color: #b89b76;
+
+$mw-focus-ring: 0 0 0 1px #b89b76;
+
+$mw-primary-glow-color: rgba(223, 193, 139, 0.5);
+$mw-primary-glow: 0 0 10px 5px var(--primary-glow-color); 
+
+$mw-blue-50:#f6fbfd;
+$mw-blue-100:#d6eaf5;
+$mw-blue-200:#b5d9ed;
+$mw-blue-300:#95c8e4;
+$mw-blue-400:#74b7dc;
+$mw-blue-500:#54a6d4;
+$mw-blue-600:#478db4;
+$mw-blue-700:#3b7494;
+$mw-blue-800:#2e5b75;
+$mw-blue-900:#224255;
+$mw-green-50:#f9fbf4;
+$mw-green-100:#e3eccc;
+$mw-green-200:#cddca4;
+$mw-green-300:#b7cd7c;
+$mw-green-400:#a1bd54;
+$mw-green-500:#8bae2c;
+$mw-green-600:#769425;
+$mw-green-700:#617a1f;
+$mw-green-800:#4c6018;
+$mw-green-900:#384612;
+$mw-yellow-50:#fffdf4;
+$mw-yellow-100:#fff4cc;
+$mw-yellow-200:#ffeba3;
+$mw-yellow-300:#ffe27b;
+$mw-yellow-400:#ffd952;
+$mw-yellow-500:#ffd02a;
+$mw-yellow-600:#d9b124;
+$mw-yellow-700:#b3921d;
+$mw-yellow-800:#8c7217;
+$mw-yellow-900:#665311;
+$mw-cyan-50:#f5fafc;
+$mw-cyan-100:#cfe9f3;
+$mw-cyan-200:#a8d8e9;
+$mw-cyan-300:#82c7df;
+$mw-cyan-400:#5bb5d6;
+$mw-cyan-500:#35a4cc;
+$mw-cyan-600:#2d8bad;
+$mw-cyan-700:#25738f;
+$mw-cyan-800:#1d5a70;
+$mw-cyan-900:#154252;
+$mw-pink-50:#fdf6f8;
+$mw-pink-100:#f5d6dd;
+$mw-pink-200:#edb5c2;
+$mw-pink-300:#e495a8;
+$mw-pink-400:#dc748d;
+$mw-pink-500:#d45472;
+$mw-pink-600:#b44761;
+$mw-pink-700:#943b50;
+$mw-pink-800:#752e3f;
+$mw-pink-900:#55222e;
+$mw-indigo-50:#f6f8fd;
+$mw-indigo-100:#d6ddf5;
+$mw-indigo-200:#b5c2ed;
+$mw-indigo-300:#95a8e4;
+$mw-indigo-400:#748ddc;
+$mw-indigo-500:#5472d4;
+$mw-indigo-600:#4761b4;
+$mw-indigo-700:#3b5094;
+$mw-indigo-800:#2e3f75;
+$mw-indigo-900:#222e55;
+$mw-teal-50:#f5fcfa;
+$mw-teal-100:#d1f0e8;
+$mw-teal-200:#ace3d6;
+$mw-teal-300:#88d7c4;
+$mw-teal-400:#63cbb2;
+$mw-teal-500:#3fbfa0;
+$mw-teal-600:#36a288;
+$mw-teal-700:#2c8670;
+$mw-teal-800:#236958;
+$mw-teal-900:#194c40;
+$mw-orange-50:#fffaf4;
+$mw-orange-100:#ffe5cc;
+$mw-orange-200:#ffd0a3;
+$mw-orange-300:#ffbb7b;
+$mw-orange-400:#ffa752;
+$mw-orange-500:#ff922a;
+$mw-orange-600:#d97c24;
+$mw-orange-700:#b3661d;
+$mw-orange-800:#8c5017;
+$mw-orange-900:#663a11;
+$mw-bluegray-50:#f9fafb;
+$mw-bluegray-100:#e1e5ea;
+$mw-bluegray-200:#c9d0d9;
+$mw-bluegray-300:#b1bbc8;
+$mw-bluegray-400:#99a6b7;
+$mw-bluegray-500:#8191a6;
+$mw-bluegray-600:#6e7b8d;
+$mw-bluegray-700:#5a6674;
+$mw-bluegray-800:#47505b;
+$mw-bluegray-900:#343a42;
+$mw-purple-50:#f8f6fd;
+$mw-purple-100:#ded6f5;
+$mw-purple-200:#c4b5ed;
+$mw-purple-300:#aa95e4;
+$mw-purple-400:#9074dc;
+$mw-purple-500:#7654d4;
+$mw-purple-600:#6447b4;
+$mw-purple-700:#533b94;
+$mw-purple-800:#412e75;
+$mw-purple-900:#2f2255;
+$mw-red-50:#fff7f6;
+$mw-red-100:#ffd8d2;
+$mw-red-200:#ffb9af;
+$mw-red-300:#ff9b8b;
+$mw-red-400:#ff7c68;
+$mw-red-500:#ff5d44;
+$mw-red-600:#d94f3a;
+$mw-red-700:#b34130;
+$mw-red-800:#8c3325;
+$mw-red-900:#66251b;
+$mw-primary-50:#fafbfe;
+$mw-primary-100:#e8ebf9;
+$mw-primary-200:#d5dcf4;
+$mw-primary-300:#c3ccf0;
+$mw-primary-400:#b0bdeb;
+$mw-primary-500:#9eade6;
+$mw-primary-600:#8693c4;
+$mw-primary-700:#6f79a1;
+$mw-primary-800:#575f7f;
+$mw-primary-900:#3f455c;

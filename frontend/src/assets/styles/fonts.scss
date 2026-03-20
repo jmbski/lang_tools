@@ -1,0 +1,171 @@
+@import 'images';
+
+$smeared-ink: 0 0 4px rgba(50,50,50,.7);
+:root {
+    --smeared-ink: 0 0 4px rgba(50,50,50,.7);
+}
+
+/* poppins-300 - latin-ext_latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    src: local(""), url("../fonts/poppins-v15-latin-ext_latin-300.woff2") format("woff2"), url("../fonts/poppins-v15-latin-ext_latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-regular - latin-ext_latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../fonts/poppins-v15-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/poppins-v15-latin-ext_latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-600 - latin-ext_latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: local(""), url("../fonts/poppins-v15-latin-ext_latin-600.woff2") format("woff2"), url("../fonts/poppins-v15-latin-ext_latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin-ext_latin */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/poppins-v15-latin-ext_latin-700.woff2") format("woff2"), url("../fonts/poppins-v15-latin-ext_latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Middle-Ages Deco */
+@font-face {
+    font-family: "MiddleAgesDeco";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/MiddleAgesDeco_PERSONAL_USE.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Middle-Ages */
+@font-face {
+    font-family: "MiddleAges";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/MiddleAges_PERSONAL_USE.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Ancient Medium */
+@font-face {
+    font-family: "AncientMedium";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/AncientMedium.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Old London */
+@font-face {
+    font-family: "OldLondon";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/OldLondon.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Old London Alternate */
+@font-face {
+    font-family: "OldLondonAlt";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/OldLondonAlternate.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Black Castle */
+@font-face {
+    font-family: "BlackCastle";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/BlackCastleMF.ttf") format("truetype"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.middle-ages {
+    font-family: "MiddleAges", sans-serif;
+}
+
+.middle-ages-deco {
+    font-family: "MiddleAgesDeco", sans-serif;
+}
+
+.ancient-medium {
+    font-family: "AncientMedium", sans-serif;
+}
+
+.old-london {
+    font-family: "OldLondon", sans-serif;
+}
+
+.old-london-alt {
+    font-family: "OldLondonAlt", sans-serif;
+    line-height: 1.9rem;
+}
+
+.black-castle {
+    font-family: "BlackCastle", sans-serif;
+    line-height: 2rem;
+}
+
+/* .illuminated-base {
+    font-family: "MiddleAgesDeco", sans-serif;
+    //text-shadow: 0 0 2px #a2dcfd;
+    //color: #a2dcfd;
+    font-size: 3rem; 
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: .25rem;
+    text-shadow: 0 0 4px rgba(50,50,50,.7);
+} */
+
+.illuminated {
+
+    font-family: "MiddleAgesDeco", sans-serif;
+    font-size: 2.5rem; 
+    float: left;
+    // text-shadow: 0 0 4px rgba(50,50,50,.7);
+    text-shadow: var(--smeared-ink);
+    
+    text-align: center;
+}
+
+.illuminated-red {
+    @extend .illuminated;
+    color: #cc18189d;
+}
+
+.illuminated-green {
+    @extend .illuminated;
+    color: #18c918ad;
+}
+
+.illuminated-blue {
+    @extend .illuminated;
+    color: #1010b1b9;
+}
+
+.illuminated-yellow {
+    @extend .illuminated;
+    color: #b1b117af;
+}
+
+.illuminated-purple {
+    @extend .illuminated;
+    color: #420868b0;
+}
+
+.illuminated-cyan {
+    @extend .illuminated;
+    color: #13ccccbd;
+}
+
+
+.smeared-ink {
+    text-shadow: $smeared-ink;
+    color: rgba(0,0,0,0.7);
+}
