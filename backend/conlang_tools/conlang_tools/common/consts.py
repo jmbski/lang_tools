@@ -61,7 +61,7 @@ else:
 
 COMBINED = list(set(LJ_WORDS + SWADESH_WORDS))
 
-NLTK_DATA_PATH = os.environ.get("NLTK_DATA", "/home/joseph/nltk_data")
+NLTK_DATA_PATH = os.environ.get("NLTK_DATA", "/home/magmek/nltk_data")
 NLTK_PACKAGES = ["wordnet", "wordnet2022"]
 # endregion Constants
 

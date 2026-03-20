@@ -28,17 +28,17 @@ The First Speech:
     y: "\xFC"
     z: z
     "\xE6": "\xE0"
-    "\xF0": '`th'
+    "\xF0": "`th"
     "\u0153": "\xF4"
     "\u0259": "\xF2"
     "\u025B": e
     "\u025C": "\xEA"
     "\u0262": g
-    "\u0266": '''h'
+    "\u0266": "'h"
     "\u0268": "\xFB"
     "\u0278": f
     "\u0279": r
-    "\u0282": '''sh'
+    "\u0282": "'sh"
     "\u0283": sh
     "\u0289": "\xF6"
     "\u0290": zsh
@@ -89,131 +89,131 @@ The First Speech:
     ZOR: 650
   orth_categories:
     A:
-    - a
+      - a
     B:
-    - "\xE0"
-    - "\xEA"
-    - "\xE9"
-    - "\xF4"
-    - "\xF2"
-    - "\xF6"
-    - "\xFB"
-    - "\xFC"
+      - "\xE0"
+      - "\xEA"
+      - "\xE9"
+      - "\xF4"
+      - "\xF2"
+      - "\xF6"
+      - "\xFB"
+      - "\xFC"
     C:
-    - c
-    - "\xE7"
-    - kh
+      - c
+      - "\xE7"
+      - kh
     D:
-    - d
-    - t
-    - th
-    - '`th'
+      - d
+      - t
+      - th
+      - "`th"
     E:
-    - "\xEA"
-    - e
-    - "\xE9"
+      - "\xEA"
+      - e
+      - "\xE9"
     F:
-    - f
+      - f
     G:
-    - g
-    - j
+      - g
+      - j
     H:
-    - '''h'
-    - h
+      - "'h"
+      - h
     I:
-    - i
+      - i
     J:
-    - a
-    - e
-    - i
-    - o
-    - u
+      - a
+      - e
+      - i
+      - o
+      - u
     K:
-    - '''h'
-    - '''sh'
-    - b
-    - bv
-    - c
-    - "\xE7"
-    - d
-    - f
-    - g
-    - h
-    - j
-    - kh
-    - l
-    - m
-    - n
-    - p
-    - pf
-    - r
-    - s
-    - sh
-    - t
-    - tch
-    - th
-    - v
-    - w
-    - y
-    - "\u017E"
-    - z
-    - zh
-    - zsh
-    - '`th'
+      - "'h"
+      - "'sh"
+      - b
+      - bv
+      - c
+      - "\xE7"
+      - d
+      - f
+      - g
+      - h
+      - j
+      - kh
+      - l
+      - m
+      - n
+      - p
+      - pf
+      - r
+      - s
+      - sh
+      - t
+      - tch
+      - th
+      - v
+      - w
+      - y
+      - "\u017E"
+      - z
+      - zh
+      - zsh
+      - "`th"
     L:
-    - l
+      - l
     M:
-    - m
-    - n
+      - m
+      - n
     O:
-    - "\xF4"
-    - "\xF2"
-    - o
-    - "\xF6"
+      - "\xF4"
+      - "\xF2"
+      - o
+      - "\xF6"
     P:
-    - p
-    - pf
-    - b
-    - bv
+      - p
+      - pf
+      - b
+      - bv
     R:
-    - r
+      - r
     S:
-    - '''sh'
-    - sh
-    - tch
-    - s
+      - "'sh"
+      - sh
+      - tch
+      - s
     U:
-    - "\xFB"
-    - "\xFC"
-    - u
+      - "\xFB"
+      - "\xFC"
+      - u
     V:
-    - a
-    - "\xE0"
-    - "\xEA"
-    - e
-    - "\xE9"
-    - i
-    - "\xF4"
-    - "\xF2"
-    - o
-    - "\xF6"
-    - "\xFB"
-    - "\xFC"
-    - u
+      - a
+      - "\xE0"
+      - "\xEA"
+      - e
+      - "\xE9"
+      - i
+      - "\xF4"
+      - "\xF2"
+      - o
+      - "\xF6"
+      - "\xFB"
+      - "\xFC"
+      - u
     W:
-    - v
-    - w
+      - v
+      - w
     Y:
-    - y
+      - y
     Z:
-    - "\u017E"
-    - z
-    - zh
-    - zsh
+      - "\u017E"
+      - z
+      - zh
+      - zsh
   phonetic_inventory:
-    '''h': "\u0266"
-    '''sh': "\u0282"
-    '`th': "\xF0"
+    "'h": "\u0266"
+    "'sh": "\u0282"
+    "`th": "\xF0"
     a: a
     b: b
     bv: bv
@@ -256,4 +256,4 @@ The First Speech:
     "\xFB": "\u0268"
     "\xFC": y
     "\u017E": ts
-out_path: /home/joseph/coding_base/lang_tools/backend/conlang_tools/test_data/lang_configs.yaml
+out_path: /home/magmek/lang_tools/backend/conlang_tools/test_data/lang_configs.yaml
