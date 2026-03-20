@@ -1,0 +1,183 @@
+debug: false
+grapheme_lookup:
+  a: a
+  ai: ai
+  "a\u0250": aer
+  "a\u028A": au
+  b: b
+  d: d
+  e: e
+  f: f
+  h: h
+  i: i
+  "i\u02D0": ie
+  j: j
+  k: k
+  l: l
+  m: m
+  n: n
+  o: o
+  "o\u026A": eu
+  "o\u028A": ou
+  p: p
+  r: r
+  s: s
+  t: t
+  u: u
+  v: v
+  w: w
+  y: y
+  z: z
+  "\xF8": "o\u0308"
+  "\u014B": ng
+  "\u0254\u026A": oi
+  "\u0254\u028F": "a\u0308u"
+  "\u025B": "a\u0308"
+  "\u0261": g
+  "\u0283": sh
+  "\u0292": zh
+lang_config_id: 2
+name: Pseudo-German
+orth_syllables:
+  AM: 1000
+  CI: 1000
+  CZ: 950
+  CZK: 850
+  EI: 950
+  EM: 1000
+  IMMM: 1506
+  MAM: 850
+  MEM: 850
+  OM: 950
+  UM: 950
+  VM: 900
+  WAM: 900
+  ZC: 900
+  ZK: 900
+  ZKP: 850
+  ZKT: 850
+  ZL: 900
+  ZM: 900
+  ZP: 900
+  ZS: 900
+  ZT: 900
+orthography_categories:
+  A:
+  - a
+  - "a\u0308"
+  - o
+  - "o\u0308"
+  - u
+  - "u\u0308"
+  - ei
+  - eu
+  - ie
+  C:
+  - p
+  - t
+  - k
+  - f
+  - s
+  - h
+  - m
+  - l
+  - w
+  - a
+  - e
+  - i
+  - o
+  - u
+  E:
+  - i
+  - e
+  F:
+  - f
+  - v
+  H:
+  - h
+  I:
+  - ei
+  - ai
+  K:
+  - k
+  - g
+  L:
+  - l
+  - r
+  M:
+  - m
+  - n
+  - ng
+  O:
+  - o
+  - "o\u0308"
+  P:
+  - p
+  - b
+  S:
+  - s
+  - z
+  - sh
+  - zh
+  T:
+  - t
+  - d
+  U:
+  - u
+  - "u\u0308"
+  - y
+  V:
+  - a
+  - e
+  - i
+  - o
+  - u
+  W:
+  - w
+  - j
+  Z:
+  - ai
+  - au
+  - oi
+  - ou
+  - ui
+othography_categories: {}
+phonetic_inventory:
+  a: a
+  aer: "a\u0250"
+  ai: ai
+  au: "a\u028A"
+  "a\u0308": "\u025B"
+  "a\u0308u": "\u0254\u028F"
+  b: b
+  d: d
+  e: e
+  ei: ai
+  eu: "o\u026A"
+  f: f
+  g: "\u0261"
+  h: h
+  i: i
+  ie: "i\u02D0"
+  j: j
+  k: k
+  l: l
+  m: m
+  n: n
+  ng: "\u014B"
+  o: o
+  oi: "\u0254\u026A"
+  ou: "o\u028A"
+  "o\u0308": "\xF8"
+  p: p
+  r: r
+  s: s
+  sh: "\u0283"
+  t: t
+  u: u
+  "u\u0308": y
+  v: v
+  w: w
+  y: y
+  z: z
+  zh: "\u0292"

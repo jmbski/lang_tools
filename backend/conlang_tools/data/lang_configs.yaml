@@ -1,0 +1,259 @@
+The First Speech:
+  grapheme_lookup:
+    a: a
+    b: b
+    bv: bv
+    c: "\xE7"
+    d: d
+    "d\u0292": j
+    e: "\xE9"
+    h: h
+    i: i
+    j: y
+    k: c
+    kx: kh
+    l: l
+    m: m
+    n: n
+    o: o
+    p: p
+    pf: pf
+    s: s
+    t: t
+    ts: "\u017E"
+    "t\u0255": tch
+    u: u
+    v: v
+    w: w
+    y: "\xFC"
+    z: z
+    "\xE6": "\xE0"
+    "\xF0": '`th'
+    "\u0153": "\xF4"
+    "\u0259": "\xF2"
+    "\u025B": e
+    "\u025C": "\xEA"
+    "\u0262": g
+    "\u0266": '''h'
+    "\u0268": "\xFB"
+    "\u0278": f
+    "\u0279": r
+    "\u0282": '''sh'
+    "\u0283": sh
+    "\u0289": "\xF6"
+    "\u0290": zsh
+    "\u0292": zh
+    "\u029D": ie
+    "\u03B8": th
+  language_name: First Speech
+  language_family: Elven
+  orth_syllables:
+    ADE: 950
+    ADI: 1000
+    AE: 800
+    AEL: 500
+    AI: 950
+    AL: 750
+    AME: 900
+    AMI: 1000
+    CBP: 230
+    CBZ: 220
+    CDJ: 275
+    CLV: 900
+    CUL: 400
+    DBJ: 225
+    DJC: 345
+    DJM: 340
+    EIL: 900
+    HBL: 235
+    HJ: 450
+    HJC: 300
+    JAI: 425
+    JLS: 400
+    JZA: 550
+    JZE: 650
+    KJD: 350
+    KJM: 375
+    LAI: 425
+    LEI: 420
+    MJMO: 325
+    MJY: 215
+    SUL: 385
+    UL: 650
+    UR: 500
+    WBP: 225
+    WJL: 265
+    WJS: 250
+    YCJ: 245
+    ZAI: 600
+    ZOR: 650
+  orth_categories:
+    A:
+    - a
+    B:
+    - "\xE0"
+    - "\xEA"
+    - "\xE9"
+    - "\xF4"
+    - "\xF2"
+    - "\xF6"
+    - "\xFB"
+    - "\xFC"
+    C:
+    - c
+    - "\xE7"
+    - kh
+    D:
+    - d
+    - t
+    - th
+    - '`th'
+    E:
+    - "\xEA"
+    - e
+    - "\xE9"
+    F:
+    - f
+    G:
+    - g
+    - j
+    H:
+    - '''h'
+    - h
+    I:
+    - i
+    J:
+    - a
+    - e
+    - i
+    - o
+    - u
+    K:
+    - '''h'
+    - '''sh'
+    - b
+    - bv
+    - c
+    - "\xE7"
+    - d
+    - f
+    - g
+    - h
+    - j
+    - kh
+    - l
+    - m
+    - n
+    - p
+    - pf
+    - r
+    - s
+    - sh
+    - t
+    - tch
+    - th
+    - v
+    - w
+    - y
+    - "\u017E"
+    - z
+    - zh
+    - zsh
+    - '`th'
+    L:
+    - l
+    M:
+    - m
+    - n
+    O:
+    - "\xF4"
+    - "\xF2"
+    - o
+    - "\xF6"
+    P:
+    - p
+    - pf
+    - b
+    - bv
+    R:
+    - r
+    S:
+    - '''sh'
+    - sh
+    - tch
+    - s
+    U:
+    - "\xFB"
+    - "\xFC"
+    - u
+    V:
+    - a
+    - "\xE0"
+    - "\xEA"
+    - e
+    - "\xE9"
+    - i
+    - "\xF4"
+    - "\xF2"
+    - o
+    - "\xF6"
+    - "\xFB"
+    - "\xFC"
+    - u
+    W:
+    - v
+    - w
+    Y:
+    - y
+    Z:
+    - "\u017E"
+    - z
+    - zh
+    - zsh
+  phonetic_inventory:
+    '''h': "\u0266"
+    '''sh': "\u0282"
+    '`th': "\xF0"
+    a: a
+    b: b
+    bv: bv
+    c: k
+    d: d
+    e: "\u025B"
+    f: "\u0278"
+    g: "\u0262"
+    h: h
+    i: i
+    ie: "\u029D"
+    j: "d\u0292"
+    kh: kx
+    l: l
+    m: m
+    n: n
+    o: o
+    p: p
+    pf: pf
+    r: "\u0279"
+    s: s
+    sh: "\u0283"
+    t: t
+    tch: "t\u0255"
+    th: "\u03B8"
+    u: u
+    v: v
+    w: w
+    y: j
+    z: z
+    zh: "\u0292"
+    zsh: "\u0290"
+    "\xE0": "\xE6"
+    "\xE7": c
+    "\xE9": e
+    "\xEA": "\u025C"
+    "\xF2": "\u0259"
+    "\xF4": "\u0153"
+    "\xF6": "\u0289"
+    "\xFB": "\u0268"
+    "\xFC": y
+    "\u017E": ts
+out_path: /home/joseph/coding_base/lang_tools/backend/conlang_tools/test_data/lang_configs.yaml

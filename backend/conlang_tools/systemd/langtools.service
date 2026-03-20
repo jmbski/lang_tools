@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve cwest_server
+After=network.target
+
+[Service]
+User=joseph
+Group=www-data
+WorkingDirectory=/home/joseph/coding_base/lang_tools/backend/conlang_tools
+EnvironmentFile=/home/joseph/coding_base/lang_tools/backend/conlang_tools/systemd/environment
+#ExecStart=/bin/bash -c 'exec /home/joseph/.local/bin/poetry run gunicorn --workers 3 --bind unix:cwest_server.sock -m 007 wsgi:app'
+ExecStart=/bin/bash -c 'exec /home/joseph/.local/bin/poetry run gunicorn --workers 3 --bind 0.0.0.0:5000 conlang_tools.wsgi:app'
+
+[Install]
+WantedBy=multi-user.target

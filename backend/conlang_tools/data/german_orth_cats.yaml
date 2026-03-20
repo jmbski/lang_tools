@@ -1,0 +1,63 @@
+Affricates: []
+Back Vowels:
+- o
+- u
+- "\u028A"
+- "\u0254"
+- "u\u02D0"
+Central Vowels:
+- a
+- "\u0250"
+- "\u0259"
+Diphthongs:
+- "a\u026A"
+- "a\u028A"
+- "\u0254\u028F"
+Fricatives:
+- f
+- v
+- s
+- z
+- "\u0283"
+- "\xE7"
+- x
+- h
+Front Vowels:
+- i
+- e
+- "\u025B"
+- y
+- "\xF8"
+- "\u0153"
+- "\u026A"
+- "\u028F"
+- "\u025B\u02D0"
+- "y\u02D0"
+Glides:
+- j
+- v
+Lengthened Vowels:
+- "e\u02D0"
+- "a\u02D0"
+- "o\u02D0"
+Liquids:
+- l
+- r
+Nasalized Vowels:
+- "a\u0303"
+- "\u0254\u0303"
+Nasals:
+- m
+- n
+- "\u014B"
+Special Characters:
+- "\u0153"
+- "\u0252"
+Voiced Plosives:
+- b
+- d
+- "\u0261"
+Voiceless Plosives:
+- p
+- t
+- k
