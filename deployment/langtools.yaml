@@ -1,0 +1,2 @@
+data_dir: /home/magmek/lang_tools/backend/conlang_tools/data
+db_path: /home/magmek/lang_tools/backend/conlang_tools/langs_data.sqlite3
